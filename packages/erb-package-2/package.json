@@ -1,0 +1,9 @@
+{
+  "name": "erb-package-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "echo \"Building erb-package-2...\""
+  }
+}

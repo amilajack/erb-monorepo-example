@@ -60,7 +60,11 @@ export default {
    */
   resolve: {
     extensions: ['.js', '.jsx', '.json'],
-    modules: [path.join(__dirname, 'app'), 'node_modules']
+    modules: [path.join(__dirname, 'app'), 'node_modules'],
+    alias: {
+      'erb-package': path.resolve(__dirname, 'packages/erb-package'),
+      '@erb/package-2': path.resolve(__dirname, 'packages/erb-package-2')
+    }
   },
 
   plugins: [
