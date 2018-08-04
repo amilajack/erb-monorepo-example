@@ -13,3 +13,6 @@ yarn
 lerna bootstrap
 lerna run build
 ```
+
+## Notable Changes
+See [this commit](https://github.com/amilajack/erb-monorepo-example/commit/871ea6a55c4b00597d694a6b8dac3f7321bd2e87)
