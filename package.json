@@ -1,9 +1,11 @@
 {
+  "private": true,
   "name": "electron-react-boilerplate",
   "productName": "ElectronReact",
   "version": "0.13.3",
   "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "build": "concurrently \"npm run build-main\" \"npm run build-renderer\"",
     "build-dll": "cross-env NODE_ENV=development node --trace-warnings -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.renderer.dev.dll.js --colors",
     "build-main": "cross-env NODE_ENV=production node --trace-warnings -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.main.prod.js --colors",
@@ -31,6 +33,9 @@
     "test-all": "npm run lint && npm run flow && npm run build && npm run test && npm run test-e2e",
     "test-e2e": "cross-env NODE_ENV=test BABEL_DISABLE_CACHE=1 node --trace-warnings -r babel-register ./internals/scripts/RunTests.js e2e",
     "test-watch": "npm test -- --watch"
+  },
+  "workspaces": {
+    "packages": ["packages/*"]
   },
   "browserslist": "electron 1.6",
   "lint-staged": {

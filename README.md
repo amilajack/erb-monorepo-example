@@ -10,7 +10,6 @@ An example of a monorepo setup for [electron-react-boilerplate](https://github.c
 git clone https://github.com/amilajack/erb-monorepo-example
 cd erb-monorepo-example
 yarn
-lerna bootstrap
 lerna run build
 ```
 

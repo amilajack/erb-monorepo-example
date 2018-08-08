@@ -1,4 +1,7 @@
 {
+  "files.associations": {
+    ".yarnrc": "ignore"
+  },
   "javascript.validate.enable": false,
   "flow.useNPMPackagedFlow": true,
   "search.exclude": {
