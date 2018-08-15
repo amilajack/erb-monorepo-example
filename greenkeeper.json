@@ -1,0 +1,12 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "app/package.json",
+        "package.json",
+        "packages/erb-package-2/package.json",
+        "packages/erb-package/package.json"
+      ]
+    }
+  }
+}
