@@ -1,6 +1,6 @@
 erb-monorepo-example
 ====================
-[![Build Status](https://travis-ci.org/amilajack/erb-monorepo-example.svg?branch=master&maxAge=2592)](https://travis-ci.org/amilajack/erb-monorepo-example)
+[![Build Status](https://travis-ci.org/amilajack/erb-monorepo-example.svg?branch=master&maxAge=2592)](https://travis-ci.org/amilajack/erb-monorepo-example) [![Greenkeeper badge](https://badges.greenkeeper.io/amilajack/erb-monorepo-example.svg)](https://greenkeeper.io/)
 
 An example of a monorepo setup for [electron-react-boilerplate](https://github.com/chentsulin/electron-react-boilerplate)
 
